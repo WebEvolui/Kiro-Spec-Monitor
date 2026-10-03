@@ -1,0 +1,14 @@
+.vscode/**
+.vscode-test/**
+src/**
+tests/**
+sample-workspace/**
+**/*.ts
+**/*.map
+.gitignore
+tsconfig.json
+vitest.config.ts
+node_modules/**
+media/icon.svg
+.github/**
+**/*.vsix

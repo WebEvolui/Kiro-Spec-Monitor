@@ -1,0 +1,21 @@
+{
+  "spec.badge.running": "{0} running",
+  "spec.badge.tasks": "{0}/{1} tasks",
+  "spec.badge.percent": "{0}%",
+  "spec.badge.separator": " • ",
+  "task.label.running": "Running",
+  "task.indicator.running": "🔄 Running",
+  "task.tooltip.running": "Running for {0}",
+  "task.tooltip.completed": "Completed",
+  "task.tooltip.pending": "Pending",
+  "spec.tooltip.progress": "{0} of {1} tasks completed ({2}%)",
+  "spec.tooltip.running": "{0} task(s) running",
+  "spec.tooltip.complete": "All tasks completed",
+  "message.tasksFileNotFound": "tasks.md not found or could not be read for this spec.",
+  "message.noSpecSelected": "No spec selected.",
+  "message.noTaskSelected": "No task selected.",
+  "message.refreshFailed": "Failed to refresh specs: {0}",
+  "message.openTasksFileFailed": "Could not open tasks.md: {0}",
+  "message.specFolderNotFound": "Spec folder not found.",
+  "message.noWorkspace": "No workspace folder is open."
+}

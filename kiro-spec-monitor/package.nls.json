@@ -1,0 +1,12 @@
+{
+  "kiroSpecMonitor.displayName": "Kiro Spec Monitor (Community)",
+  "kiroSpecMonitor.description": "Community (unofficial) read-only visual monitor for Kiro Specs and their tasks. Not affiliated with Kiro or AWS.",
+  "kiroSpecMonitor.viewsContainer.title": "Kiro Spec Monitor",
+  "kiroSpecMonitor.view.name": "Specs",
+  "kiroSpecMonitor.command.category": "Kiro Spec Monitor",
+  "kiroSpecMonitor.command.refresh.title": "Refresh Specs",
+  "kiroSpecMonitor.command.openTasksFile.title": "Open tasks.md",
+  "kiroSpecMonitor.command.revealTask.title": "Reveal Task",
+  "kiroSpecMonitor.command.collapseAll.title": "Collapse All",
+  "kiroSpecMonitor.command.openSpecFolder.title": "Open Spec Folder"
+}

@@ -1,0 +1,147 @@
+{
+  "name": "kiro-spec-monitor",
+  "displayName": "%kiroSpecMonitor.displayName%",
+  "description": "%kiroSpecMonitor.description%",
+  "version": "0.0.1",
+  "publisher": "SEU-PUBLISHER-ID",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Visualization",
+    "Other"
+  ],
+  "keywords": [
+    "kiro",
+    "spec",
+    "tasks",
+    "monitor"
+  ],
+  "main": "./out/extension.js",
+  "l10n": "./l10n",
+  "activationEvents": [
+    "onView:kiroSpecMonitor.view"
+  ],
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "kiroSpecMonitor",
+          "title": "%kiroSpecMonitor.viewsContainer.title%",
+          "icon": "$(checklist)"
+        }
+      ]
+    },
+    "views": {
+      "kiroSpecMonitor": [
+        {
+          "id": "kiroSpecMonitor.view",
+          "name": "%kiroSpecMonitor.view.name%",
+          "contextualTitle": "%kiroSpecMonitor.viewsContainer.title%"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "kiroSpecMonitor.refresh",
+        "title": "%kiroSpecMonitor.command.refresh.title%",
+        "category": "%kiroSpecMonitor.command.category%",
+        "icon": "$(refresh)"
+      },
+      {
+        "command": "kiroSpecMonitor.openTasksFile",
+        "title": "%kiroSpecMonitor.command.openTasksFile.title%",
+        "category": "%kiroSpecMonitor.command.category%",
+        "icon": "$(go-to-file)"
+      },
+      {
+        "command": "kiroSpecMonitor.revealTask",
+        "title": "%kiroSpecMonitor.command.revealTask.title%",
+        "category": "%kiroSpecMonitor.command.category%"
+      },
+      {
+        "command": "kiroSpecMonitor.collapseAll",
+        "title": "%kiroSpecMonitor.command.collapseAll.title%",
+        "category": "%kiroSpecMonitor.command.category%",
+        "icon": "$(collapse-all)"
+      },
+      {
+        "command": "kiroSpecMonitor.openSpecFolder",
+        "title": "%kiroSpecMonitor.command.openSpecFolder.title%",
+        "category": "%kiroSpecMonitor.command.category%",
+        "icon": "$(folder-opened)"
+      }
+    ],
+    "menus": {
+      "view/title": [
+        {
+          "command": "kiroSpecMonitor.refresh",
+          "when": "view == kiroSpecMonitor.view",
+          "group": "navigation@1"
+        },
+        {
+          "command": "kiroSpecMonitor.openTasksFile",
+          "when": "view == kiroSpecMonitor.view",
+          "group": "navigation@2"
+        },
+        {
+          "command": "kiroSpecMonitor.collapseAll",
+          "when": "view == kiroSpecMonitor.view",
+          "group": "navigation@3"
+        }
+      ],
+      "commandPalette": [
+        {
+          "command": "kiroSpecMonitor.refresh"
+        },
+        {
+          "command": "kiroSpecMonitor.openTasksFile"
+        },
+        {
+          "command": "kiroSpecMonitor.collapseAll"
+        },
+        {
+          "command": "kiroSpecMonitor.openSpecFolder"
+        },
+        {
+          "command": "kiroSpecMonitor.revealTask",
+          "when": "false"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "vscode:prepublish": "npm run compile",
+    "lint": "tsc -p ./ --noEmit",
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/vscode": "^1.84.0",
+    "@vscode/test-electron": "^2.3.9",
+    "fast-check": "^3.15.0",
+    "typescript": "^5.3.0",
+    "vitest": "^1.2.0",
+    "@vscode/vsce": "^3.2.0"
+  },
+  "icon": "media/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SEU-USUARIO/kiro-spec-monitor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SEU-USUARIO/kiro-spec-monitor/issues"
+  },
+  "homepage": "https://github.com/SEU-USUARIO/kiro-spec-monitor#readme",
+  "galleryBanner": {
+    "color": "#1B3C8C",
+    "theme": "dark"
+  },
+  "qna": false
+}

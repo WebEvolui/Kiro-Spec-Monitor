@@ -1,0 +1,21 @@
+{
+  "{0} running": "{0} em execução",
+  "{0}/{1} tasks": "{0}/{1} tarefas",
+  "{0}%": "{0}%",
+  " • ": " • ",
+  "Running": "Em execução",
+  "🔄 Running": "🔄 Em execução",
+  "Running for {0}": "Em execução há {0}",
+  "Completed": "Concluída",
+  "Pending": "Pendente",
+  "{0} of {1} tasks completed ({2}%)": "{0} de {1} tarefas concluídas ({2}%)",
+  "{0} task(s) running": "{0} tarefa(s) em execução",
+  "All tasks completed": "Todas as tarefas concluídas",
+  "tasks.md not found or could not be read for this spec.": "tasks.md não encontrado ou não pôde ser lido para esta Spec.",
+  "No spec selected.": "Nenhuma Spec selecionada.",
+  "No task selected.": "Nenhuma tarefa selecionada.",
+  "Failed to refresh specs: {0}": "Falha ao atualizar as Specs: {0}",
+  "Could not open tasks.md: {0}": "Não foi possível abrir o tasks.md: {0}",
+  "Spec folder not found.": "Pasta da Spec não encontrada.",
+  "No workspace folder is open.": "Nenhuma pasta de workspace está aberta."
+}

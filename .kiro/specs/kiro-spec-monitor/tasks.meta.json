@@ -1,0 +1,494 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Initialize npm project and TypeScript build under `kiro-spec-monitor/`": [
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791027968600
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791027980760
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791028682597
+      }
+    ],
+    "1.2 Author the extension manifest contributions in `package.json`": [
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791027968815
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791028686427
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791028792874
+      }
+    ],
+    "1.3 Implement minimal `src/extension.ts` that activates and registers an empty TreeView": [
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791027969044
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791028798350
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791028893087
+      }
+    ],
+    "2.1 Implement `src/models/Task.ts` and `src/models/Spec.ts`": [
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791027969229
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791028799189
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791028894287
+      }
+    ],
+    "3.1 Implement `src/services/taskParser.ts`": [
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791027969311
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791028900095
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791029073476
+      }
+    ],
+    "5.1 Implement `src/services/specScanner.ts`": [
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791027969408
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791028901468
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791029074424
+      }
+    ],
+    "6.1 Implement `computeProgress` and ordering helper in `src/services/specAggregator.ts`": [
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791027969494
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791029082846
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791029220929
+      }
+    ],
+    "7.1 Implement `src/services/workspaceIdResolver.ts`": [
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791027969597
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791028902392
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791029075564
+      }
+    ],
+    "8.1 Implement `src/services/taskStateProvider.ts` abstraction + `FallbackStateProvider`": [
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791027969688
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791029083924
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791029221796
+      }
+    ],
+    "8.2 Implement `KiroMetadataStateProvider` with `inferStatus`": [
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791027969765
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791029236943
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791029392344
+      }
+    ],
+    "9.1 Implement `src/services/taskRuntimeService.ts`": [
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791027969850
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791029238400
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791029393663
+      }
+    ],
+    "10.1 Complete `SpecAggregator.refresh()` and `orderSpecs`": [
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791027969930
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791029400428
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791029555025
+      }
+    ],
+    "11. Checkpoint — core services verified": [
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791027970016
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791029560965
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791029573384
+      }
+    ],
+    "12.1 Implement `src/providers/specTreeProvider.ts`": [
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791027970166
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791029578474
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791029724869
+      }
+    ],
+    "12.2 Wire the tree provider and runtime ticks into `extension.ts`": [
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791027970318
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791029732211
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791029885158
+      }
+    ],
+    "13.1 Implement `src/commands/` handlers": [
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791027970406
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791029733012
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791029885995
+      }
+    ],
+    "13.2 Register commands in `extension.ts` and bind task-click to `revealTask`": [
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791027970489
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791029895238
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791030019744
+      }
+    ],
+    "14.1 Implement `src/services/specWatcher.ts`": [
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791027970578
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791029896700
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791030019585
+      }
+    ],
+    "14.2 Wire `SpecWatcher` into `extension.ts`": [
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791027970658
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791030114428
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791030178428
+      }
+    ],
+    "15.1 Add declarative NLS bundles and runtime l10n bundles": [
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791027970752
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791029239176
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791029394650
+      }
+    ],
+    "15.2 Implement language resolution from `vscode.env.language`": [
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791027970885
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791029897698
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791030109566
+      }
+    ],
+    "16.1 Finalize `extension.ts` wiring and disposal": [
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791027970961
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791030184163
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791030311859
+      }
+    ],
+    "16.2 Run the full build/compile and test suite": [
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791027971079
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791030312690
+      },
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791030329664
+      }
+    ],
+    "1. Project scaffolding and empty activatable extension": [
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791028893303
+      }
+    ],
+    "2. Data models": [
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791028894453
+      }
+    ],
+    "3. TaskParser (pure, primary unit under test)": [
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791029073672
+      }
+    ],
+    "5. SpecScanner": [
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791029074602
+      }
+    ],
+    "7. WorkspaceIdResolver": [
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791029075718
+      }
+    ],
+    "6. Progress calculation and SpecAggregator skeleton": [
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791029221160
+      }
+    ],
+    "8. TaskStateProvider abstraction and concrete providers": [
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791029392666
+      }
+    ],
+    "9. TaskRuntimeService (timer core)": [
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791029393822
+      }
+    ],
+    "10. SpecAggregator full wiring and ordering": [
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791029555414
+      }
+    ],
+    "12. SpecTreeProvider rendering": [
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791029885317
+      }
+    ],
+    "13. Commands": [
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791030019863
+      }
+    ],
+    "15. Localization (English + Portuguese only)": [
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791030109741
+      }
+    ],
+    "14. SpecWatcher (real-time updates)": [
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791030178581
+      }
+    ],
+    "16. Final wiring and build verification": [
+      {
+        "executionId": "8a9ece68-7455-4c82-aa21-47e1625bcb19",
+        "chatSessionId": "sess_5453312b-d925-4306-930d-fc3e74b31740",
+        "timestamp": 1791030329827
+      }
+    ]
+  }
+}
