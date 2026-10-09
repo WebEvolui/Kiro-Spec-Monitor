@@ -29,6 +29,32 @@ Tudo isso **sem nunca escrever** no seu `tasks.md` nem na metadata interna do Ki
 
 ---
 
+## 📸 Capturas de tela
+
+<div align="center">
+
+### O ícone na Activity Bar
+
+Um painel dedicado "Kiro Spec Monitor" fica a um clique de distância, no mesmo lugar de sempre.
+
+<img src="docs/images/screenshot-activitybar.jpeg" alt="Ícone do Kiro Spec Monitor na Activity Bar com o painel aberto" width="300" />
+
+### Visão geral das specs e tarefas
+
+A spec `exemplo-saudacao` recém‑criada, com suas 5 tarefas pendentes e o progresso `0% • 0/5` ao lado do nome.
+
+<img src="docs/images/screenshot-specs.jpeg" alt="Painel do Kiro Spec Monitor mostrando a spec exemplo-saudacao com 5 tarefas pendentes" width="520" />
+
+### Estados em tempo real + navegação para o `tasks.md`
+
+O painel (à esquerda) reflete o estado de cada tarefa lido direto do `tasks.md` (à direita): **concluída** (`[x]`), **em execução** (`[-]`) e **na fila** (`[~]`). Clicar numa tarefa abre o arquivo exatamente na linha dela.
+
+<img src="docs/images/screenshot-tasks.jpeg" alt="Kiro Spec Monitor ao lado do tasks.md mostrando tarefas concluída, em execução e na fila" width="820" />
+
+</div>
+
+---
+
 ## 🚀 Recursos
 
 | | Recurso |
@@ -73,6 +99,41 @@ npm run package      # gera o .vsix com @vscode/vsce
 4. Clique em uma tarefa para pular direto até ela no `tasks.md`.
 
 A árvore se atualiza sozinha conforme você conclui tarefas ou cria novas specs.
+
+---
+
+## 💡 Exemplo prático
+
+Dado um `tasks.md` como o da spec `exemplo-saudacao`:
+
+```markdown
+# Plano de implementação
+
+- [x] 1. Criar a estrutura base do GreetingService
+  - Definir a função `saudar(nome, idioma)` com a assinatura e o idioma padrão
+  - _Requisitos: 1.1, 2.4_
+
+- [-] 2. Implementar a normalização do nome
+  - Remover espaços nas extremidades do nome
+  - Tratar nome vazio devolvendo a saudação genérica
+  - _Requisitos: 1.2, 1.3_
+
+- [~] 3. Implementar o mapa de idiomas e a resolução do prefixo
+  - Adicionar os prefixos pt/en/es
+  - Aplicar o fallback para português em idioma desconhecido
+  - _Requisitos: 2.1, 2.2, 2.3, 2.4_
+```
+
+A extensão interpreta cada marcador e mostra o estado correspondente na árvore:
+
+| Marcador no `tasks.md` | Estado exibido |
+|---|---|
+| `- [x]` | ✅ **Concluída** |
+| `- [-]` | ⏳ **Em execução** |
+| `- [~]` | 🕗 **Na fila** |
+| `- [ ]` | ⬜ **Pendente** |
+
+O progresso ao lado do nome da spec (`X/Y` e `%`) conta **apenas as tarefas‑folha**, então subtarefas detalhadas não inflam o total.
 
 ---
 
